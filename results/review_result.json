@@ -1,0 +1,128 @@
+{
+  "task": "review_classification",
+  "input_file": "data/reviews.csv",
+  "generated_at": "2026-04-29 18:42:10",
+  "items_count": 12,
+  "results": [
+    {
+      "id": "1",
+      "date": "2026-04-21",
+      "review": "The delivery was fast and the package arrived in good condition.",
+      "llm_result": {
+        "sentiment": "positive",
+        "topic": "delivery",
+        "reason": "The review says that delivery was fast and the package arrived safely."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2026-04-22",
+      "review": "The product works, but the price is a little too high.",
+      "llm_result": {
+        "sentiment": "neutral",
+        "topic": "price",
+        "reason": "The user says the product works, but also complains about the price."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2026-04-22",
+      "review": "Customer support answered quickly and helped me solve the issue.",
+      "llm_result": {
+        "sentiment": "positive",
+        "topic": "service",
+        "reason": "The review praises the support team for a quick and helpful response."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2026-04-23",
+      "review": "The item looked cheaper than in the photos and the quality was disappointing.",
+      "llm_result": {
+        "sentiment": "negative",
+        "topic": "quality",
+        "reason": "The user is disappointed with the appearance and quality of the item."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2026-04-24",
+      "review": "It is a normal product. Nothing special, but it does the job.",
+      "llm_result": {
+        "sentiment": "neutral",
+        "topic": "product",
+        "reason": "The review is balanced and describes the product as acceptable but not special."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2026-04-24",
+      "review": "The order was delayed for several days and there were no updates.",
+      "llm_result": {
+        "sentiment": "negative",
+        "topic": "delivery",
+        "reason": "The review complains about a long delay and lack of updates."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2026-04-25",
+      "review": "I liked the design and the product feels comfortable to use.",
+      "llm_result": {
+        "sentiment": "positive",
+        "topic": "product",
+        "reason": "The user mentions liking the design and comfort of the product."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2026-04-26",
+      "review": "The service was polite, but the delivery took longer than expected.",
+      "llm_result": {
+        "sentiment": "neutral",
+        "topic": "delivery",
+        "reason": "The review has both a positive service comment and a negative delivery comment."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2026-04-27",
+      "review": "For this price the quality is very good. I would buy it again.",
+      "llm_result": {
+        "sentiment": "positive",
+        "topic": "quality",
+        "reason": "The user says the quality is good for the price and would buy again."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2026-04-27",
+      "review": "The product description was not clear, so I ordered the wrong size.",
+      "llm_result": {
+        "sentiment": "negative",
+        "topic": "product",
+        "reason": "The user had a problem because the product description was unclear."
+      }
+    },
+    {
+      "id": "11",
+      "date": "2026-04-28",
+      "review": "The box was damaged, but the product inside was fine.",
+      "llm_result": {
+        "sentiment": "neutral",
+        "topic": "delivery",
+        "reason": "The package was damaged, but the product itself was not affected."
+      }
+    },
+    {
+      "id": "12",
+      "date": "2026-04-29",
+      "review": "The product is simple, cheap and useful for everyday use.",
+      "llm_result": {
+        "sentiment": "positive",
+        "topic": "price",
+        "reason": "The review describes the product as useful and cheap."
+      }
+    }
+  ]
+}
